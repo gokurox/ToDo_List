@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        style="@style/TextHeadings"
+        android:text="UUID" />
+
+    <TextView
+        android:id="@+id/uuid"
+        style="@style/UUIDTextStyle"
+        android:text="Universally Unique Identifier" />
+
+    <TextView
+        style="@style/TextHeadings"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TitleTextStyle"
+        android:text="Title" />
+
+    <TextView
+        style="@style/TextHeadings"
+        android:text="TimeStamp" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/TimestampTextStyle"
+        android:text="YYYY/MM/DD hh:mm:ss" />
+
+    <TextView
+        style="@style/TextHeadings"
+        android:text="Description" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/DescriptionTextStyle"
+        android:text="Description" />
+</LinearLayout>
